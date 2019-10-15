@@ -3,4 +3,4 @@ description:  Data doodles for your noodle.
 url:          http://doodatales.github.io
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-theme:  jekyll-theme-architect
+theme:  gridster-jekyll-theme
