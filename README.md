@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# Casper
 
-You can use the [editor on GitHub](https://github.com/doodatales/doodatales.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper. If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+&nbsp;
 
-### Markdown
+![screenshot-desktop](https://user-images.githubusercontent.com/120485/27221326-1e31d326-5280-11e7-866d-82d550a7683b.jpg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+&nbsp;
 
-```markdown
-Syntax highlighted code block
+# First time using a Ghost theme?
 
-# Header 1
-## Header 2
-### Header 3
+Ghost uses a simple templating language called [Handlebars](http://handlebarsjs.com/) for its themes.
 
-- Bulleted
-- List
+We've documented our default theme pretty heavily so that it should be fairly easy to work out what's going on just by reading the code and the comments. Once you feel comfortable with how everything works, we also have full [theme API documentation](https://ghost.org/docs/api/handlebars-themes/) which explains every possible Handlebars helper and template.
 
-1. Numbered
-2. List
+**The main files are:**
 
-**Bold** and _Italic_ and `Code` text
+- `default.hbs` - The main template file
+- `index.hbs` - Used for the home page
+- `post.hbs` - Used for individual posts
+- `page.hbs` - Used for individual pages
+- `tag.hbs` - Used for tag archives
+- `author.hbs` - Used for author archives
 
-[Link](url) and ![Image](src)
+One really neat trick is that you can also create custom one-off templates just by adding the slug of a page to a template file. For example:
+
+- `page-about.hbs` - Custom template for the `/about/` page
+- `tag-news.hbs` - Custom template for `/tag/news/` archive
+- `author-ali.hbs` - Custom template for `/author/ali/` archive
+
+
+# Development
+
+Casper styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
+
+```bash
+$ yarn install
+$ yarn dev
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
 
-### Jekyll Themes
+The `zip` Gulp task packages the theme files into `dist/<theme-name>.zip`, which you can then upload to your site.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/doodatales/doodatales.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```bash
+$ yarn zip
+```
 
-### Support or Contact
+# PostCSS Features Used
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Autoprefixer - Don't worry about writing browser prefixes of any kind, it's all done automatically with support for the latest 2 major versions of every browser.
+- Variables - Simple pure CSS variables
+- [Color Function](https://github.com/postcss/postcss-color-function)
+
+
+# SVG Icons
+
+Casper uses inline SVG icons, included via Handlebars partials. You can find all icons inside `/partials/icons`. To use an icon just include the name of the relevant file, eg. To include the SVG icon in `/partials/icons/rss.hbs` - use `{{> "icons/rss"}}`.
+
+You can add your own SVG icons in the same manner.
+
+
+# Copyright & License
+
+Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
