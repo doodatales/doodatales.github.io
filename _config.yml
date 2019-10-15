@@ -1,6 +1,0 @@
-name: Doodatales
-description:  Data doodles for your noodle.
-url:          http://doodatales.github.io
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-remote_theme:  DigitalMindCH/gridster-jekyll-theme

@@ -82,9 +82,5 @@
                 "width": 2000
             }
         }
-    },
-    "dependencies": {
-        "handlebars": "^4.4.3",
-        "lodash": "^4.17.15"
     }
 }
