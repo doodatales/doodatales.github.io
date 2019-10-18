@@ -21,8 +21,8 @@ Contact us with questions using the form below.
     <input type='text' name='email' placeholder="name@example.com" id="Email"/>
   </div>
   <div class="form-group">
-    <label for="Message">Message</label>
-    <input type='text' name='message' id="Message" rows="3"/>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="3"></textarea>
   </div>
   <input type='submit' value='Submit' />
 </form>
