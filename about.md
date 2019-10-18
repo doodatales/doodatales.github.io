@@ -22,7 +22,7 @@ Contact us with questions using the form below.
   </div>
   <div class="form-group">
     <label for="Message">Message</label>
-    <textarea type='text' name='message' id="Message" rows="3"/>
+    <input type='text' name='message' id="Message" rows="3"/>
   </div>
   <input type='submit' value='Submit' />
 </form>
