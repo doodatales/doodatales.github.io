@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: third
 image: /assets/img/collections-banner.png
 gallery:
   - url: /assets/img/data-viz-cat-thn.png
