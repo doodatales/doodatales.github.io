@@ -14,14 +14,17 @@ Contact us with questions using the form below.
   <!-- all your input fields here.... -->
   <div class="form-group">
     <label for="Name">Name</label>
+    <br>
     <input type='text' name='Name' id="Name"/>
   </div>
   <div class="form-group">
     <label for="Email">Email Address</label>
+    <br>
     <input type='text' name='email' placeholder="name@example.com" id="Email"/>
   </div>
   <div class="form-group">
     <label for="message">Message</label>
+    <br>
     <textarea name="message" id="message" rows="3"></textarea>
   </div>
   <input type='submit' value='Submit' />
