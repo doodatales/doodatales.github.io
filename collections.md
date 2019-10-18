@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "Ginger Gulp Identity"
-excerpt: "Ginger Gulp design system including logo mark, website design, and branding applications."
+title: "Collections"
 image: /assets/img/collections-banner.png
 gallery:
   - url: /assets/img/data-viz-cat-thn.png
