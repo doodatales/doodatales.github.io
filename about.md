@@ -25,7 +25,7 @@ Contact us with questions using the form below.
   <div class="form-group">
     <label for="message">Message</label>
     <br>
-    <textarea name="message" id="message" rows="3"></textarea>
+    <textarea name="message" id="message" rows="3" cols="50"></textarea>
   </div>
   <input type='submit' value='Submit' />
 </form>
