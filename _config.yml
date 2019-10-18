@@ -232,7 +232,7 @@ collections:
     permalink:         /:name/
     output:            true
 
-  featured_tags: [data-viz, infographics, dfw, trending-news, pop-culture, politics, sports]
+  featured_tags:  [data-viz, infographics, dfw, trending-news, pop-culture, politics, sports]
     permalink:         /tag-:name/
     output:            true
 
