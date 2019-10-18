@@ -232,7 +232,7 @@ collections:
     permalink:         /:name/
     output:            true
 
-  featured_tags:
+  featured_tags:  [data-viz]
     permalink:         /tag-:name/
     output:            true
 
