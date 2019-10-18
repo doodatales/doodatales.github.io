@@ -245,7 +245,7 @@ collections:
 
 defaults:
   - scope:
-      path: "collections"
+      path: "photos"
         type: photos
     values:
       layout: photo
