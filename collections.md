@@ -13,7 +13,7 @@ gallery:
     alt: "Infographics"
 ---
 
-![Title](/assets/img/collections-banner.png)
+<!--![Title](/assets/img/collections-banner.png)-->
 
 {% include gallery %}
 
