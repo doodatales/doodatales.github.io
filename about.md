@@ -15,7 +15,7 @@ Contact us with questions using the form below.
   <label for="Name">Name</ label>
   <input type='text' name='Name' id="Name"/>
   <label for="Email"/>Email Address</label>
-  <input type='text' name='email'placeholder="name@example.com" id="Email"/>
+  <input type='text' name='email' placeholder="name@example.com" id="Email"/>
   <label for="Message">Message</label>
   <input type='text' name='message' id="Message" rows="3"/>
   <input type='submit' value='Submit' />
