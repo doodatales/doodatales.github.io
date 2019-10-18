@@ -1,4 +1,4 @@
-<ul>
+
   {% for post in site.posts %}
   <hr />
   <div class="row">
@@ -17,4 +17,4 @@
   </div>
   </div>
   {% endfor %}
-</ul>
+
