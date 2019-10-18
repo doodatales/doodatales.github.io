@@ -2,6 +2,8 @@
 image: /assets/img/blog/tile-wide-small.png
 ---
 
+![Title](/assets/img/blog/tile-wide-small.png)
+
 # About Doodatales
 
 Data doodles for your noodle.
