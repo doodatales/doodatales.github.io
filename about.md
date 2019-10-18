@@ -11,5 +11,7 @@ Contact us with questions using the form below.
 <form action="https://formspree.io/email@domain.tld" method="POST">
   <input type="text" name="name">
   <input type="email" name="_replyto">
+  <input type="text" name="_replyto" placeholder="nemanson@gmail.com" />
+  <textarea name="_message"></textarea>
   <input type="submit" value="Send">
 </form>
