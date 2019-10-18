@@ -54,6 +54,10 @@ menu:
     url:               /hyde/
   - title:             Documentation
     url:               /docs/
+  - title:             Blog
+    url:               /blog/
+  - title:             Collections
+    url:               /collections/
   - title:             About
     url:               /about/
 
@@ -228,7 +232,7 @@ collections:
     permalink:         /:name/
     output:            true
 
-  featured_tags:
+  featured_tags: data-viz, infographics, dfw, trending-news, pop-culture, politics, sports
     permalink:         /tag-:name/
     output:            true
 
