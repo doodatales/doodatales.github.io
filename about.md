@@ -12,8 +12,11 @@ Contact us with questions using the form below.
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
   <!-- all your input fields here.... -->
-  <input type='text' name='Name'/><label for="Name"/>
-  <input type='text' name='email'/><label for="Email Address"/>
-  <input type='text' name='message'/><label for="Message"/>
+  <label for="Name"/>
+  <input type='text' name='Name'/>
+  <label for="Email Address"/>
+  <input type='text' name='email'placeholder="name@example.com"/>
+  <label for="Message"/>
+  <input type='text' name='message' rows="3"/>
   <input type='submit' value='Test form' />
 </form>
