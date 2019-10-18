@@ -12,6 +12,6 @@ Contact us with questions using the form below.
   <input type="text" name="name">
   <input type="email" name="_replyto">
   <input type="text" name="_replyto" placeholder="nemanson@gmail.com" />
-  <textarea name="_message"></textarea>
+  <tinput type="_message" name="message"></textarea>
   <input type="submit" value="Send">
 </form>
