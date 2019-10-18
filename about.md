@@ -17,7 +17,7 @@ Contact us with questions using the form below.
     <input type='text' name='Name' id="Name"/>
   </div>
   <div class="form-group">
-    <label for="Email"/>Email Address</label>
+    <label for="Email">Email Address</label>
     <input type='text' name='email' placeholder="name@example.com" id="Email"/>
   </div>
   <div class="form-group">
