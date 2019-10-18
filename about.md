@@ -9,13 +9,13 @@ image: /assets/img/blog/tile-wide-small.png
 Data doodles for your noodle.
 
 Doodatales is run by data scientists and mathematicians.  It’s our objective to mine data sources for newsworthy insights, turn them into visualizations, and provide background information on trending news topics so our readers are empowered to make informed decisions.  
-
-
-
+<br>
+<br>
+<br>
 Contact us with questions using the form below.
-
-
-
+<br>
+<br>
+<br>
 <form action="https://getsimpleform.com/messages?form_api_token=c1f8ef95da9247d4b806c2459380979a" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
