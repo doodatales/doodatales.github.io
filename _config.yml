@@ -243,12 +243,12 @@ collections:
   photos: #http://garethlewis.io/blog/2016/05/21/building-my-photo-gallery-the-jekyll-way/
     output: true
     
-defaults:
-  - scope:
-      path:            "photos"
-        type: photos 
-    values:
-      layout: photo
+  defaults:
+    - scope:
+        path:            "photos"
+          type: photos 
+      values:
+        layout: photo
 
 
 # File inclusion/exclusion
