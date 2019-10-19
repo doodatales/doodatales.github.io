@@ -1,3 +1,3 @@
 ---
-layout: blog2
+layout: blog2 
 ---
