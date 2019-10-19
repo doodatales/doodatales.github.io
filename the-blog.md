@@ -1,4 +1,4 @@
 ---
 layout: blog2
-title: Blog
+title: The Blog
 ---
