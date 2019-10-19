@@ -1,6 +1,4 @@
----
-cover: false
----
+
   {% for post in site.posts %}
  
   <div class="row">
