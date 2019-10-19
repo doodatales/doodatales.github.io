@@ -1,5 +1,6 @@
 ---
-cover: false
+layout: welcome
+cover: true
 ---
   {% for post in site.posts %}
  
