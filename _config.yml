@@ -309,7 +309,7 @@ plugins:
 #   name:                <firstname> <lastname>
 #   links:
 #     - https://twitter.com/<username>
-     - https://github.com/doodatales
+#     - https://github.com/<username>
 
 
 # Other Plugins
