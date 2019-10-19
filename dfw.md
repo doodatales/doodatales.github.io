@@ -1,4 +1,3 @@
-
 --- 
 layout: dfw
 title: Dfw
